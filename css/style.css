@@ -1,27 +1,24 @@
 h1{
-  color:Teal;
+
   font-size:4em;
-  font-style:italic;
+
 
 }
 
-ol{
-  font-size:0.5cm;
-}
 
-li{
-  font-style:italic;
-}
+
 
 .totheright{
   margin-left:1cm;
   }
 
 .highlight{
-  background-color: rgb(200,45,63)
+  background-color: grey
 }
 
 #subtitle{
+  font-size: .5cm;
   font-style: oblique;
-  font-size:.25cm;
+
+
 }
