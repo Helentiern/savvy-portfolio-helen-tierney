@@ -5,20 +5,30 @@ h1{
 
 }
 
+img{
+  max-width:400px;
+  width:100%;
+  height:auto;
+  margin:0 auto;
+  display:block;
+}
 
 
 
-.totheright{
-  margin-left:1cm;
-  }
+.container{
+  max-width: 750px;
+  width:100%;
+
+}
 
 .highlight{
   background-color: grey
 }
 
-#subtitle{
-  font-size: .5cm;
-  font-style: oblique;
+.content{
+  margin:2cm;
+
+}
 
 .headline {
     color: rgb(100,50,100);
