@@ -20,5 +20,9 @@ h1{
   font-size: .5cm;
   font-style: oblique;
 
+.headline {
+    color: rgb(100,50,100);
+  }
+
 
 }

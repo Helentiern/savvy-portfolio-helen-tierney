@@ -1,0 +1,23 @@
+{
+  "name": "helentierney",
+  "version": "1.0.0",
+  "description": "An example portfolio project for June 2017 Savvy Coders course",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Helentiern/savvy-portfolio-helen-tierney.git"
+  },
+  "author": "Helen Tierney",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Helentiern/savvy-portfolio-helen-tierney/issues"
+  },
+  "homepage": "https://github.com/Helentiern/savvy-portfolio-helen-tierney#readme",
+  "devDependencies": {
+    "http-server": "^0.10.0"
+  }
+}
