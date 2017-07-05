@@ -32,7 +32,22 @@ p{
 }
 
 .highlight{
-  background-color: grey
+  background-color: grey;
+}
+
+.linkback{
+  font-style:bold;
+  font-family:sans-serif;
+  padding: .25cm;
+  margin: .5cm;
+}
+
+a{
+  font-style:bold;
+  font-family:sans-serif;
+  text-decoration: none;
+  color:black;
+
 }
 
 
