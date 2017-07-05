@@ -1,6 +1,7 @@
 h1{
 
   font-size:4em;
+  font-family:sans-serif;
 
 
 }
@@ -12,7 +13,16 @@ img{
   margin:0 auto;
   display:block;
 }
+.context{
+  background: #d1d1e0;
+  padding: .25cm;
+  margin: .5cm;
 
+}
+
+p{
+  font-family:sans-serif;
+}
 
 
 .container{
@@ -25,8 +35,7 @@ img{
   background-color: grey
 }
 
-.content{
-  margin:2cm;
+
 
 }
 
