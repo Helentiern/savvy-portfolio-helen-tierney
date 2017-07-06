@@ -28,6 +28,8 @@ p{
 .container{
   max-width: 750px;
   width:100%;
+  margin: 0 auto;
+  padding-right:8em;
 
 }
 
@@ -38,9 +40,30 @@ p{
 .linkback{
   font-style:bold;
   font-family:sans-serif;
-  padding: .25cm;
   margin: .5cm;
 }
+
+.relative{
+  position: relative;
+}
+
+.icon{
+  margin: 1em;
+  width: 2em;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.sidebaricon{
+  margin: 1em;
+  width: 2em;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+
 
 a{
   font-style:bold;
@@ -51,12 +74,18 @@ a{
 }
 
 
+.sidebar{
+  background-color: #d1d1e0;
+  position: fixed;
+  top:0;
+  right:0;
+  width: -8em;
+  height: 100vh;
+
 
 }
+
 
 .headline {
     color: rgb(100,50,100);
   }
-
-
-}
