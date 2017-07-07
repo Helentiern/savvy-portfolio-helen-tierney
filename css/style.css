@@ -97,3 +97,22 @@ a{
   right:0;
 
 }
+
+
+
+input[type='text'],
+input[type='password'],
+input[type='email']{
+  font-size: 1em;
+  padding: 0.5em;
+  width:100%;
+  background-color: #d1d1e0;
+}
+
+optgroup{
+  background-color: #d1d1e0;
+}
+
+textarea{
+  background-color: #d1d1e0;
+}
