@@ -58,10 +58,13 @@ p{
 .sidebaricon{
   margin: 1em;
   width: 2em;
-  position: absolute;
+  position: fixed;
   top: 0;
   right: 0;
+  z-index: 1;
 }
+
+
 
 
 
@@ -78,14 +81,19 @@ a{
   background-color: #d1d1e0;
   position: fixed;
   top:0;
-  right:0;
-  width: -8em;
+  right:-8em;
+  width: 8em;
   height: 100vh;
-
-
 }
 
+.sidebaricon:hover + .sidebar{
+  right:0;
+  transition: right 0.5s ease;
+}
 
-.headline {
-    color: rgb(100,50,100);
-  }
+.sidebar:hover{
+  position:fixed;
+  top:0;
+  right:0;
+
+}
