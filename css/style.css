@@ -2,6 +2,7 @@ h1{
 
   font-size:4em;
   font-family:sans-serif;
+  color:#2F2E39;
 
 
 }
@@ -53,6 +54,7 @@ p{
   position: absolute;
   top: 0;
   left: 0;
+  color:#2F2E39;
 }
 
 .sidebaricon{
@@ -62,6 +64,7 @@ p{
   top: 0;
   right: 0;
   z-index: 1;
+  color:#2F2E39;
 }
 
 
@@ -81,8 +84,8 @@ a{
   background-color: #d1d1e0;
   position: fixed;
   top:0;
-  right:-8em;
-  width: 8em;
+  right:-15em;
+  width: 15em;
   height: 100vh;
 }
 

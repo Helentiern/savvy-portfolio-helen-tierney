@@ -19,5 +19,8 @@
   "homepage": "https://github.com/Helentiern/savvy-portfolio-helen-tierney#readme",
   "devDependencies": {
     "http-server": "^0.10.0"
+  },
+  "dependencies": {
+    "milligram": "^1.3.0"
   }
 }
