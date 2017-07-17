@@ -13,17 +13,22 @@ img{
   height:auto;
   margin:0 auto;
   display:block;
+  display: flex;
+  flex-wrap: wrap;
 }
 .context{
   background: #d1d1e0;
   padding: .25cm;
   margin: .5cm;
 
+
 }
 
 p{
   font-family:sans-serif;
   color:#2F2E39;
+
+
 }
 
 
@@ -43,6 +48,14 @@ p{
   font-style:bold;
   font-family:sans-serif;
   margin: .5cm;
+  background-color: #d1d1e0;
+
+}
+
+.linkback > a{
+  display:flex;
+  justify-content: space-between;
+  align-items: baseline;
 }
 
 .relative{
@@ -85,9 +98,13 @@ a{
   background-color: #d1d1e0;
   position: fixed;
   top:0;
-  right:-15em;
-  width: 15em;
+  padding-left: 1em;
+  right:-18em;
+  width: 18em;
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .sidebaricon:hover + .sidebar{
