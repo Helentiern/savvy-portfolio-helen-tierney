@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/Helentiern/savvy-portfolio-helen-tierney#readme",
   "devDependencies": {
+    "eslint": "^4.2.0",
     "http-server": "^0.10.0"
   },
   "dependencies": {
